@@ -41,6 +41,14 @@ color:#000000;
 font-size:64px;
 margin-bottom:60px;
 }
+@font-face {
+font-family: cabinmed;
+src: url('fonts/cabinmed.woff');
+}
+@font-face {
+font-family: cabinitalic;
+src: url('fonts/cabinitalic.woff');
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -58,7 +66,7 @@ margin-bottom:60px;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color:#FFFFFF; /*59d1ab*/
+  background-color:#ffffff; /*59d1ab*/
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -66,6 +74,12 @@ margin-bottom:60px;
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px;
 }
 
 
